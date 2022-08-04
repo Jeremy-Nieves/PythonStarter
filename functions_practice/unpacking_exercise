@@ -1,0 +1,8 @@
+def average(*args):
+    total = 0
+    for arg in args:
+        total += arg
+    return total//len(args)
+
+nums = [7,4,9,2,11,2,3,4]
+print(average(nums))
