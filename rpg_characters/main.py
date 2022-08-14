@@ -2,7 +2,6 @@ from random import randint
 from rpg_character_stats import attacker, defender, healer, monk, magician
 
 party_members = []
-party_stats = {}
 
 
 def create_party(size=1):
